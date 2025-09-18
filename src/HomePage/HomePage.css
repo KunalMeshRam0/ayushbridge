@@ -1,0 +1,41 @@
+/* Make html and body full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  /* Main layout container */
+  .homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Just layout: spacing between buttons */
+  .button-group {
+    display: flex;
+    gap: 40px;
+    margin-top: auto;
+    margin-bottom: 180px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2C2C2C;     
+    /* max-width: 600px; */
+  }
+
+  .highlight {
+    color: #2a6fb1;
+  }
+  
